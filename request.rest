@@ -1,0 +1,63 @@
+POST http://127.0.0.1:8000/predict_api
+Content-Type:application/json
+
+{
+    "CS_SEXO":0.0,
+    "CS_RACA":4.0,
+    "TRATAMENTO":1.0,
+    "RAIOX_TORA":4.0,
+    "TESTE_TUBE":4.0,
+    "FORMA":1.0,
+    "AGRAVAIDS":9.0,
+    "AGRAVALCOO":9.0,
+    "AGRAVDIABE":9.0,
+    "AGRAVDOENC":9.0,
+    "AGRAVOUTRA":9.0,
+    "BACILOSC_E":2.0,
+    "BACILOS_E2":9.0,
+    "BACILOSC_O":3.0,
+    "CULTURA_ES":4.0,
+    "HIV":4.0,
+    "DOENCA_TRA":9.0,
+    "AGRAVDROGA":9.0,
+    "AGRAVTABAC":9.0,
+    "IDADE":19.0
+}
+
+
+
+### get photo 
+POST http://127.0.0.1:8000/explanation_api
+Content-Type:application/json
+
+{
+    "name": "explanation-ISONIAZIDA.html"
+}
+
+
+### get explanations  
+POST http://127.0.0.1:8000/explanations_api
+Content-Type:" application/json
+
+{
+    "CS_SEXO":0.0,
+    "CS_RACA":4.0,
+    "TRATAMENTO":1.0,
+    "RAIOX_TORA":4.0,
+    "TESTE_TUBE":4.0,
+    "FORMA":1.0,
+    "AGRAVAIDS":9.0,
+    "AGRAVALCOO":9.0,
+    "AGRAVDIABE":9.0,
+    "AGRAVDOENC":9.0,
+    "AGRAVOUTRA":9.0,
+    "BACILOSC_E":2.0,
+    "BACILOS_E2":9.0,
+    "BACILOSC_O":3.0,
+    "CULTURA_ES":4.0,
+    "HIV":4.0,
+    "DOENCA_TRA":9.0,
+    "AGRAVDROGA":9.0,
+    "AGRAVTABAC":9.0,
+    "IDADE":19.0
+}
